@@ -1,5 +1,15 @@
 @media (min-width: 64em) {
 	.slds-large-size_8-of-12, .slds-large-size--8-of-12 {
-		width: 100% !important;
+		width: 80% !important;
 	}
+
+	.slds-large-size_4-of-12, .slds-large-size--4-of-12 {
+		width: 20% !important;
+	}
+}
+
+.slds-container_x-large, .siteforceContentArea, .osis-pisq-theme.osis-pisq-theme_narrow-banners .osis-pisq-layout__lead-content {
+	max-width: 100rem !important;
+	margin-left: auto;
+	margin-right: auto;
 }
