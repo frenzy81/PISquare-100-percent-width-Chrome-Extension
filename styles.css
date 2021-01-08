@@ -1,0 +1,5 @@
+@media (min-width: 64em) {
+	.slds-large-size_8-of-12, .slds-large-size--8-of-12 {
+		width: 100% !important;
+	}
+}

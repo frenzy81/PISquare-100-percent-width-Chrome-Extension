@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Modify PISquare CSS",
+  "version": "0.1",
+  "description": "Modify the width of PISquare posts in order to make the comment section more readable",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://pisquare.osisoft.com/*"]
+  }]
+
+}
